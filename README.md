@@ -1,4 +1,4 @@
-# JupyterLab on Cloud Foundry
+# JupyterLab on Tanzu Platform for Cloud Foundry
 
 Deploy JupyterLab as a web application on Tanzu Platform for Cloud Foundry with this simple configuration.
 
