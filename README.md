@@ -27,6 +27,15 @@ Deploy JupyterLab as a web application on Tanzu Platform for Cloud Foundry with 
    - Open the URL in your browser
    - Start coding in JupyterLab!
 
+4. **Notebook sample**
+   - Bind your genai chat service named "chat-llm" to your Jupyterlab app (or edit the nobebook accordingly)
+    ```bash
+   cf bind-service cf-jupyterlab chat-llm
+   cf restage cf-jupyterlab
+    ```
+    - Open and use the nbsample notebook in Jupyterlab
+
+
 ## 📁 Project Structure
 
 ```
