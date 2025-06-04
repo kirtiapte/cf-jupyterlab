@@ -1,11 +1,11 @@
 # JupyterLab on Cloud Foundry
 
-Deploy JupyterLab as a web application on Cloud Foundry platform with this simple configuration.
+Deploy JupyterLab as a web application on Tanzu Platform for Cloud Foundry with this simple configuration.
 
 ## 📋 Prerequisites
 
 - Cloud Foundry CLI installed
-- Access to a Cloud Foundry environment
+- Access to a Tanzu Platform for Cloud Foundry environment
 - Git (for cloning this repository)
 - (optional) GenAI tile
 
@@ -17,7 +17,7 @@ Deploy JupyterLab as a web application on Cloud Foundry platform with this simpl
    cd cf-jupyterlab
    ```
 
-2. **Deploy to Cloud Foundry**
+2. **Deploy to Tanzu Platform for Cloud Foundry**
    ```bash
    cf push
    ```
@@ -89,7 +89,7 @@ another-package
 Edit `manifest.yml`:
 ```yaml
 applications:
-- name: my-jupyterlab-app
+- name: cf-jupyterlab
   memory: 2G        # Increase memory
   disk_quota: 4G    # Increase disk space
 ```
