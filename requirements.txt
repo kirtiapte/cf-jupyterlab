@@ -1,4 +1,5 @@
 jupyterlab==4.2.5
+jupyterlab-git==0.51.2
 notebook
 ipykernel
 python-dotenv
